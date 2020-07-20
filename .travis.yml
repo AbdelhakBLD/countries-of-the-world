@@ -7,4 +7,4 @@ script:
     - npm run build
 after_success:
     - echo Starting deploy
-    - firebase deploy --project countries-of-the-world-25202 --token $FIREBASE_TOKEN
+    - firebase deploy --token $FIREBASE_TOKEN
