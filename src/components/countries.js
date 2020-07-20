@@ -4,7 +4,8 @@ const Countries = ({ countries }) => {
   return (
     <div>
       <center>
-        <h1>Countries List by AbdelhakBLD</h1>
+        <h1>Countries List</h1>
+        <h2>by AbdelhakBLD</h2>
       </center>
       <div className="d-flex flex-wrap justify-content-center">
         {countries.map((countrie) => (
