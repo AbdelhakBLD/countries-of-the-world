@@ -5,6 +5,8 @@ install:
     - npm install
 script:
     - npm run build
-after_success:
-    - echo Starting deploy
-    - firebase deploy --token $FIREBASE_TOKEN
+deploy:
+    provider: firebase
+    token:
+        secure: $FIREBASE_TOKEN
+    project: "countries-of-the-world-25202"
