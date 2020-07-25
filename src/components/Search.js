@@ -23,7 +23,7 @@ class Search extends Component {
 
     return (
       <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top m-2">
           <button
             className="navbar-toggler"
             type="button"

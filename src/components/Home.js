@@ -19,8 +19,7 @@ class Home extends Component {
     return (
       <>
         <center>
-          <h1>Countries List</h1>
-          <h2>by AbdelhakBLD</h2>
+          <h1 className="mt-4 mb-4">Countries Of The World</h1>
         </center>
         <Search countries={this.state.countries}></Search>
         {/* <Countries countries={this.state.countries} /> */}

@@ -13,11 +13,7 @@ class Countries extends Component {
               alt={"flag of " + countrie.name}
             ></img>
             <div className="card-body">
-              <h5 className="card-title">{countrie.name}</h5>
-              <h6 className="card-subtitle mb-2 text-muted">
-                {countrie.capital}
-              </h6>
-              <p className="card-text">{countrie.region}</p>
+              <h4 className="card-title">{countrie.name}</h4>
             </div>
             <Countrie details={countrie} />
           </div>

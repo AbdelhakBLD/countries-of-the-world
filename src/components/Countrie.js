@@ -13,7 +13,7 @@ class Countrie extends Component {
       <>
         <button
           type="button"
-          className="btn btn-info"
+          className="btn"
           data-toggle="modal"
           data-target={`#modal_` + this.state.code}
           id={`btn_` + this.state.code}
@@ -44,10 +44,13 @@ class Countrie extends Component {
                 </button>
               </div>
               <div className="modal-body">
-                <p>Population : {this.state.details.population}</p>
-                <p>Languages : {this.state.details.languages[0].name}</p>
-                <p>Currencies : {this.state.details.currencies[0].name}</p>
-                <p>Time Zones : {this.state.details.timezones[0]}</p>
+                <h4>Population : {this.state.details.population}</h4>
+                <h4>Languages : {this.state.details.languages[0].name}</h4>
+                <h4>Currencies : {this.state.details.currencies[0].name}</h4>
+                <h4>Capital : {this.state.details.capital}</h4>
+                <h4>Region : {this.state.details.region}</h4>
+                <h4>Subregion : {this.state.details.subregion}</h4>
+                <h4>Time Zones : {this.state.details.timezones[0]}</h4>
               </div>
               <div className="modal-footer">
                 <button

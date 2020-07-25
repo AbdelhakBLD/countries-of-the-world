@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #070721;
+  background-color: #fca311;
 }
 
 code {
@@ -16,7 +16,7 @@ code {
 h1, h2 {
   font-weight: bold;
   font-size: 3em;
-  color: #3590f3;
+  color: #ffffff;
 }
 
 .flex-item {
@@ -27,7 +27,9 @@ h1, h2 {
 }
 
 .card {
-  background-color: #F2F4F3;
+  background-color: #e5e5e5;
+  border-color: #19294d;
+  border-radius: 20px;
 }
 
 .zoom {
@@ -38,3 +40,20 @@ h1, h2 {
   transform: scale(1.05);
 }
 
+.btn {
+  background-color: #14213d;
+  color: #ffffff;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: #19294d;
+  color: #ffffff;
+}
+.navbar {
+  border-color: #19294d;
+  border-radius: 20px;
+}
+.card-img-top {
+  border-radius: 20px;
+  height: 200px;
+}
