@@ -1,22 +1,24 @@
 import React, { Component } from "react";
-import Countries from "./components/countries";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from "./components/Home.js";
 
 class App extends Component {
-  state = {
-    countries: [],
-  };
-
-  componentDidMount() {
-    fetch("https://restcountries.eu/rest/v2/all")
-      .then((res) => res.json())
-      .then((data) => {
-        this.setState({ countries: data });
-      })
-      .catch(console.log);
-  }
-
   render() {
-    return <Countries countries={this.state.countries} />;
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    );
   }
 }
 

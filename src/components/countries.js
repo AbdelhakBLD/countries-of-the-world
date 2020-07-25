@@ -1,14 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
+import Countrie from "./Countrie";
 
-const Countries = ({ countries }) => {
-  return (
-    <div>
-      <center>
-        <h1>Countries List</h1>
-        <h2>by AbdelhakBLD</h2>
-      </center>
+class Countries extends Component {
+  render() {
+    return (
       <div className="d-flex flex-wrap justify-content-center">
-        {countries.map((countrie) => (
+        {this.props.countries.map((countrie) => (
           <div className="card m-2 flex-item" key={countrie.numericCode}>
             <img
               className="card-img-top"
@@ -22,11 +19,12 @@ const Countries = ({ countries }) => {
               </h6>
               <p className="card-text">{countrie.region}</p>
             </div>
+            <Countrie details={countrie} />
           </div>
         ))}
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Countries;

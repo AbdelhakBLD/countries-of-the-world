@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #070721;
 }
 
 code {
@@ -12,9 +13,10 @@ code {
     monospace;
 }
 
-h1 {
+h1, h2 {
   font-weight: bold;
   font-size: 3em;
+  color: #3590f3;
 }
 
 .flex-item {
@@ -23,3 +25,16 @@ h1 {
   height: auto;
   line-height: 100px;
 }
+
+.card {
+  background-color: #F2F4F3;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
