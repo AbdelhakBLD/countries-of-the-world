@@ -13,7 +13,8 @@ code {
     monospace;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: bold;
   font-size: 3em;
   color: #ffffff;
@@ -33,7 +34,7 @@ h1, h2 {
 }
 
 .zoom {
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .zoom:hover {
@@ -56,4 +57,7 @@ h1, h2 {
 .card-img-top {
   border-radius: 20px;
   height: 200px;
+}
+.list-group {
+  border-radius: 20px;
 }
