@@ -100,7 +100,7 @@ class About extends Component {
                     <h3>Développeur web front-end</h3>
                     <h4>INSY2S</h4>
                     <h5 class="text-muted">nov. 2019 – déc. 2019 - 2 mois</h5>
-                    <h5 class="text-muted">Région de Lille, France</h5>
+                    <h5 class="text-muted">Lille-Sud, France</h5>
                     <h5>
                       Développement d'une interface de gestion de stock (dossier
                       précarité énergétique). Développement d’un site ELM
@@ -228,10 +228,6 @@ class About extends Component {
                     <h4>DUT informatique</h4>
                     <h5 class="text-muted">2016 - 2018</h5>
                     <h5>
-                      Acquisition des bases et de certaines notions avancées en
-                      Front End et Back End :
-                    </h5>
-                    <h5>
                       • Programmation orientée objet java, java EE, java FX
                     </h5>
                     <h5>• Programmation système en C sous Debian </h5>
@@ -259,7 +255,7 @@ class About extends Component {
                 </div>
                 <div class="card bg-light my-2">
                   <div class="card-body">
-                    <h3>Lycée César-Baggio, Lille</h3>
+                    <h3>Lycée Maurice Duhamel, Loos</h3>
                     <h4>BEP Installateur Sanitaire et Thermique</h4>
                     <h5 class="text-muted">2008 - 2012</h5>
                   </div>
